@@ -9,7 +9,7 @@ fn test_loop() {
 
     let result = loop {
         if counter == 5 {
-            counter
+            break counter;
         }
         counter += 1;
     };
